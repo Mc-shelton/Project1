@@ -47,3 +47,69 @@
 #welcome-section div h4 {
   color: #be3144;
 }
+#projects{
+    background: #45567d;
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#head{
+    font-size: x-large;
+    width: 40%;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom:4px solid white;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#listProj{
+    margin: 30px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#listProj a{
+    text-decoration: none;
+    flex: 1;
+    margin-left: 40px;
+    min-width: 30%;
+    max-width: 30%;
+    margin-bottom: 40px;
+    /* flex-grow: 0; */
+}
+.project-tile{
+    display: flex;
+    flex-direction: column;
+}
+.project-tile div{
+    background: #303841;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.span{
+    color: #ff7f50;
+    opacity:0;
+    transition: 0.5s all;
+}
+
+#listProj a:hover .span{
+    opacity:1;
+}
+
+.project-tile img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+
+}
